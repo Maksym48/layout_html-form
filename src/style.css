@@ -1,1 +1,16 @@
-/* styles go here */
+fieldset {
+  margin-bottom: 20px;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+.bottom {
+  margin-bottom: 0;
+}
+
+div {
+  display: inline-block;
+  margin-bottom: 10px;
+}
