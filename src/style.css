@@ -6,6 +6,10 @@ input {
   margin-bottom: 10px;
 }
 
+#rate {
+  margin-bottom: 0;
+}
+
 .bottom {
   margin-bottom: 0;
 }

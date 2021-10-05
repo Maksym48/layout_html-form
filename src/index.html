@@ -13,57 +13,62 @@
   <body>
     <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="POST"
     onsubmit="onSubmit"
-    >
+  >
       <fieldset>
         <legend>Personal information</legend>
         <label for="surname">
-            Surname:
+          Surname:
         </label>
-        <input type="text"
+        <input
+          type="text"
           name="Surname"
           id="surname"
-          >
+        >
         <br>
 
         <label for="name">
-            Name:
+          Name:
         </label>
-        <input type="text"
-            name="name"
-            id="name"
-          >
+        <input
+          type="text"
+          name="name"
+          id="name"
+        >
         <br>
 
         <label for="age">
             How old are You?
         </label>
-        <input type="number"
-              id="age"
-              name="age"
-              value="12"
-              min="12"
-              max="100"
-            >
+        <input
+          type="number"
+          id="age"
+          name="age"
+          value="12"
+          min="12"
+          max="100"
+        >
         <br>
 
         <label for="birth">
             Full date of birth:
         </label>
-        <input type="date"
-              id="birth"
-              name="birth"
-            >
+        <input
+          type="date"
+          id="birth"
+          name="birth"
+        >
         <br>
 
 
         <label for="accept">
             I accept the term of the agreement
         </label>
-        <input type="checkbox"
-            name="agree"
-            id="accept"
-            class="bottom"
-          >
+        <input
+          type="checkbox"
+          name="agree"
+          id="accept"
+          class="bottom"
+        >
       </fieldset>
 
       <fieldset>
@@ -71,7 +76,8 @@
         <label for="email">
           E-mail:
         </label>
-        <input type="email"
+        <input
+          type="email"
           name="email"
           placeholder="email@example.com"
           id="email"
@@ -79,9 +85,10 @@
         <br>
 
         <label for="password">
-            Password:
+          Password:
         </label>
-        <input type="text"
+        <input
+          type="text"
           name="Password"
           id="password"
           required
@@ -94,14 +101,17 @@
       <fieldset>
         <legend>An interesting fact about you!</legend>
         <div>Do you love cats?</div>
-        <input type="radio"
+        <input
+          type="radio"
           name="cats"
-          id="love-cats">
+          id="love-cats"
+        >
         <label for="love-cats">
           Yes
         </label>
 
-        <input type="radio"
+        <input
+          type="radio"
           name="cats"
           id="dont-love"
         >
@@ -113,7 +123,8 @@
         <label for="color">
           <div>What is your favorite color?</div>
         </label>
-        <input type="color"
+        <input
+          type="color"
           name="color"
           id="color"
         >
@@ -122,16 +133,18 @@
         <label for="sleep-time">
           <div>What time do you go to bed?</div>
         </label>
-        <input type="time"
+        <input
+          type="time"
           name="time"
           id="sleep-time"
         >
         <br>
 
-        <label for="brands" class="brands">
+        <label for="brands">
           <div>What are your favorite brand of cars?</div>
         </label>
-        <select name="brands"
+        <select
+          name="brands"
           id="brands"
           multiple
         >
@@ -145,13 +158,13 @@
         <label for="rate">
           How do you rate our work?
         </label>
-        <input type="range"
+        <input
+          type="range"
           name="rate"
           id="rate"
           min="0"
           max="10"
           value="0"
-          class="bottom"
         >
       </fieldset>
 
@@ -172,7 +185,8 @@
         </select>
       </fieldset>
 
-      <input type="submit"
+      <input
+        type="submit"
         value="Submit"
       >
     </form>
