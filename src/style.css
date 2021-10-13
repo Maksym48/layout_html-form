@@ -2,19 +2,6 @@ fieldset {
   margin-bottom: 20px;
 }
 
-input {
-  margin-bottom: 10px;
-}
-
-#rate {
-  margin-bottom: 0;
-}
-
-.bottom {
-  margin-bottom: 0;
-}
-
-div {
-  display: inline-block;
+.form-field:not(:last-child) {
   margin-bottom: 10px;
 }
